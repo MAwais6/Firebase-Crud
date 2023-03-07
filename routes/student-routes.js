@@ -15,6 +15,7 @@ router.put('/student/:id', updateStudent);
 router.delete('/student/:id', deleteStudent);
 
 
+
 module.exports = {
     routes: router
 }
